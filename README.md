@@ -21,6 +21,9 @@ https://next-with-api-wbykqnmlyl.now.sh/
 ```
 git clone git@github.com:carlos-peru/rails-api.git
 cd rails-api
+```
+Recuerden borrar las tablas que tienen en el esquema y modificar el batabase.yml para que les pegue con la base de datos
+```
 rails db:migrate
 rails s
 ```
